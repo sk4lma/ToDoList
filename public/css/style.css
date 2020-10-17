@@ -1,0 +1,39 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+    margin-bottom: 20px;
+}
+.header div{
+    text-align: bottom;
+    display: flex;
+    align-content: center;
+    padding-top: 10px;
+}
+.header div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.telo {margin: auto; box-shadow: 3px 3px 3px #e0e0e0; border: 1px solid #f0f0f0; padding: 1em; max-width: 50em; min-height: 50%}
+h1 {color: #800000; text-align: center; text-shadow: 2px 2px #e0e0e0;}
+p {text-indent: 1em; text-align: justify;}
+object.ptacek {width: 20em; height: 12em; margin: auto; display: block;}
+div#prepinac, div#prepinac-zpet {text-align: center; visibility: hidden;}
+div#prepinac a, div#prepinac-zpet a {color: inherit; text-decoration: underline;}
+video.sloupek {margin: auto; cursor: pointer;}
+.sloupek-kontejner {display: none; text-align: center;}
